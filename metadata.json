@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Banalia3D Studio",
+  "description": "Premium futuristic 3D printing portfolio and custom manufacturing studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

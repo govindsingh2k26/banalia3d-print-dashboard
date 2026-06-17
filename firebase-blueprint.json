@@ -1,0 +1,51 @@
+{
+  "collections": {
+    "users": {
+      "uid": "string",
+      "email": "string",
+      "displayName": "string",
+      "photoURL": "string",
+      "createdAt": "timestamp"
+    },
+    "quotes": {
+      "id": "string",
+      "userId": "string",
+      "material": "string",
+      "infill": "number",
+      "dimensions": {
+        "length": "number",
+        "width": "number",
+        "height": "number"
+      },
+      "estimatedWeight": "number",
+      "estimatedPrice": "number",
+      "ideaText": "string",
+      "createdAt": "timestamp"
+    },
+    "chat_messages": {
+      "id": "string",
+      "userId": "string",
+      "role": "string",
+      "content": "string",
+      "createdAt": "timestamp"
+    },
+    "orders": {
+      "id": "string",
+      "userId": "string",
+      "itemName": "string",
+      "category": "string",
+      "price": "number",
+      "status": "string",
+      "trackingNumber": "string",
+      "carrier": "string",
+      "createdAt": "string",
+      "estimatedDelivery": "string",
+      "filamentColor": "string",
+      "material": "string",
+      "layerHeight": "string",
+      "infill": "string",
+      "rating": "number",
+      "feedback": "string"
+    }
+  }
+}
