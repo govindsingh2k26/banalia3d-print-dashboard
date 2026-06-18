@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://banalia3dstudio.com/sitemap.xml
-Host: banalia3dstudio.com
