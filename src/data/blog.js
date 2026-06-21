@@ -1,0 +1,66 @@
+// ============================================================
+// BLOG POSTS DATA — add/edit posts here for SEO content
+// ============================================================
+
+export const BLOG_POSTS = [
+  {
+    id: 'beginners-guide-3d-printing-india',
+    title: "Beginner's Guide to 3D Printing in India (2024)",
+    excerpt: 'Everything you need to know about getting started with 3D printing in India — from choosing materials to finding the right studio for custom orders.',
+    category: '3D Printing Tips',
+    emoji: '🖨️',
+    readTime: '5 min read',
+    date: 'June 10, 2024',
+    url: 'https://banalia3d-feed.blogspot.com/2026/06/beginners-guide-to-3d-printing-in-india.html',
+  },
+  {
+    id: 'why-nfc-keychains-are-the-perfect-modern-gift',
+    title: 'Why NFC Keychains Are the Perfect Modern Gift',
+    excerpt: 'NFC-enabled keychains and pendants are the ultimate tech gift for 2024. Share your contact, socials, or portfolio with a single tap — no app needed.',
+    category: 'Product Guides',
+    emoji: '🔑',
+    readTime: '4 min read',
+    date: 'May 28, 2024',
+    url: '/?post=why-nfc-keychains-are-the-perfect-modern-gift',
+  },
+  {
+    id: 'custom-3d-gifts-occasions',
+    title: 'Top 10 Custom 3D Printed Gift Ideas for Every Occasion',
+    excerpt: 'From birthdays to anniversaries, weddings to corporate gifting — custom 3D printed gifts are unique, personal, and surprisingly affordable.',
+    category: 'Custom Gift Ideas',
+    emoji: '🎁',
+    readTime: '6 min read',
+    date: 'May 15, 2024',
+    slug: '#blog',
+  },
+  {
+    id: '3d-printed-home-decor-trends',
+    title: '2024 Home Decor Trends: How 3D Printing Is Changing Interiors',
+    excerpt: 'Low-poly sculptures, geometric planters, and custom lighting shades — 3D printing is revolutionizing affordable home decor. Here are the top trends.',
+    category: 'Home Decor Inspiration',
+    emoji: '🏡',
+    readTime: '5 min read',
+    date: 'April 30, 2024',
+    slug: '#blog',
+  },
+  {
+    id: 'pla-vs-petg-vs-abs',
+    title: 'PLA vs PETG vs ABS: Which 3D Printing Material Should You Choose?',
+    excerpt: 'Not all 3D printing filaments are equal. This guide breaks down the pros and cons of PLA, PETG, and ABS for different use cases — from display pieces to functional parts.',
+    category: '3D Printing Tips',
+    emoji: '⚗️',
+    readTime: '7 min read',
+    date: 'April 12, 2024',
+    slug: '#blog',
+  },
+  {
+    id: 'desk-lamp-3d-print-guide',
+    title: 'How We Designed the Lumina Desk Lamp from Scratch',
+    excerpt: 'A behind-the-scenes look at the full product development process — from CAD sketching to first print, finishing, and the final product you can order today.',
+    category: 'Product Guides',
+    emoji: '💡',
+    readTime: '8 min read',
+    date: 'March 25, 2024',
+    slug: '#blog',
+  },
+]
