@@ -1,0 +1,81 @@
+/**
+ * Featured products for BANALIA3D v2
+ * Focus: Desk organizers, gaming accessories, cable docks
+ * @type {import('../types.js').Product[]}
+ */
+export const PRODUCTS = [
+  {
+    id: 'desk-organizer-1',
+    name: 'Modular Desk Organizer',
+    category: 'desk',
+    description: 'Multi-compartment desk organizer with cable management. Customize colors and layout.',
+    priceEstimate: '₹249 - ₹499',
+    imageUrl: '/images/desk-organizer-1.jpg',
+    tags: ['desk', 'organizer', 'storage', 'customizable'],
+    whatsappMessage: 'Hi! I am interested in the Modular Desk Organizer. Can you customize it for me?',
+    amazonUrl: 'https://amazon.in',
+    meeshoUrl: 'https://meesho.com',
+  },
+  {
+    id: 'headphone-stand-1',
+    name: 'Premium Headphone Stand',
+    category: 'gaming',
+    description: 'Ergonomic headphone stand with cable holder. Perfect for gaming setups.',
+    priceEstimate: '₹149 - ₹299',
+    imageUrl: '/images/headphone-stand-1.jpg',
+    tags: ['gaming', 'headphones', 'stand', 'cable-management'],
+    whatsappMessage: 'Hi! I would like to order the Premium Headphone Stand. What colors are available?',
+    amazonUrl: 'https://amazon.in',
+    meeshoUrl: 'https://meesho.com',
+  },
+  {
+    id: 'cable-dock-1',
+    name: 'Smart Cable Dock',
+    category: 'desk',
+    description: 'Organize multiple cables with labeled slots. Fits USB-C, Lightning, Micro-USB.',
+    priceEstimate: '₹199 - ₹399',
+    imageUrl: '/images/cable-dock-1.jpg',
+    tags: ['desk', 'cable', 'organization', 'tech'],
+    whatsappMessage: 'Hi! I want to get the Smart Cable Dock. Can I customize the number of slots?',
+    amazonUrl: 'https://amazon.in',
+    meeshoUrl: 'https://meesho.com',
+  },
+  {
+    id: 'gaming-mount-1',
+    name: 'Adjustable Monitor Stand',
+    category: 'gaming',
+    description: 'Height-adjustable monitor stand with storage drawer. Supports up to 10kg.',
+    priceEstimate: '₹399 - ₹699',
+    imageUrl: '/images/monitor-stand-1.jpg',
+    tags: ['gaming', 'monitor', 'stand', 'workspace'],
+    whatsappMessage: 'Hi! I am interested in the Adjustable Monitor Stand. What is the exact weight limit?',
+    amazonUrl: 'https://amazon.in',
+    meeshoUrl: 'https://meesho.com',
+  },
+  {
+    id: 'car-mount-1',
+    name: 'Car Phone Mount',
+    category: 'utility',
+    description: 'Secure phone mount for car dashboard. 360° rotation, adjustable grip.',
+    priceEstimate: '₹129 - ₹249',
+    imageUrl: '/images/car-mount-1.jpg',
+    tags: ['car', 'phone-mount', 'travel', 'utility'],
+    whatsappMessage: 'Hi! I want to buy the Car Phone Mount. Does it fit all phone sizes?',
+    amazonUrl: 'https://amazon.in',
+    meeshoUrl: 'https://meesho.com',
+  },
+  {
+    id: 'plant-pot-1',
+    name: 'Minimalist Plant Pot',
+    category: 'desk',
+    description: 'Sleek low-poly planter for small succulents. Available in multiple colors.',
+    priceEstimate: '₹99 - ₹199',
+    imageUrl: '/images/plant-pot-1.jpg',
+    tags: ['desk', 'planter', 'decoration', 'minimalist'],
+    whatsappMessage: 'Hi! I like the Minimalist Plant Pot. What materials can you print it in?',
+    amazonUrl: 'https://amazon.in',
+    meeshoUrl: 'https://meesho.com',
+  },
+]
+
+export const CATEGORIES = ['all', 'desk', 'gaming', 'utility']
