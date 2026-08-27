@@ -22,18 +22,15 @@ body {
   line-height: 1.6;
 }
 
-/* Smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Selection styles */
 ::selection {
   background-color: var(--ink);
   color: var(--paper);
 }
 
-/* Focus states */
 button:focus-visible,
 a:focus-visible {
   outline: 2px solid var(--ink);
