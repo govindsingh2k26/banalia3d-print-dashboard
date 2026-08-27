@@ -1,76 +1,99 @@
-// ============================================================
-// BLOG POSTS DATA — add/edit posts here for SEO content
-// ============================================================
-
+/**
+ * Blog posts for BANALIA3D v2
+ * @type {import('../types.js').BlogPost[]}
+ */
 export const BLOG_POSTS = [
   {
-    id: 'beginners-guide-3d-printing-india',
-    title: "Beginner's Guide to 3D Printing in India (2024)",
-    excerpt: 'Everything you need to know about getting started with 3D printing in India — from choosing materials to finding the right studio for custom orders.',
-    category: '3D Printing Tips',
-    emoji: '🖨️',
-    readTime: '5 min read',
-    date: 'June 10, 2024',
-    url: 'https://banalia3d-feed.blogspot.com/2026/06/beginners-guide-to-3d-printing-in-india.html',
+    id: 'intro-3d-printing',
+    title: 'Getting Started with 3D Printing',
+    slug: 'getting-started-3d-printing',
+    summary: 'Learn the basics of 3D printing technology and how it can revolutionize your workspace.',
+    content: `
+# Getting Started with 3D Printing
+
+3D printing, also known as additive manufacturing, is transforming how we create and customize products. 
+Whether you're looking for a simple desk organizer or a complex mechanical part, 3D printing offers 
+unlimited possibilities.
+
+## What is 3D Printing?
+
+3D printing builds objects layer by layer from digital designs. Unlike traditional manufacturing, 
+there's no need for molds or tooling — just design, slice, and print.
+
+## Why Custom 3D Prints?
+
+- **Customization**: Make products exactly as you need them
+- **Rapid Prototyping**: Get your designs in days, not weeks
+- **Cost-Effective**: Low setup costs for small batches
+- **Sustainability**: Minimal material waste
+
+Start your 3D printing journey with BANALIA3D today!
+    `,
+    imageUrl: '/images/blog-3d-basics.jpg',
+    category: 'tutorial',
+    readTime: '5 min',
+    publishedDate: '2024-01-15',
+    tags: ['3d-printing', 'tutorial', 'beginner'],
   },
   {
-    id: 'why-nfc-keychains-are-the-perfect-modern-gift',
-    title: 'Why NFC Keychains Are the Perfect Modern Gift',
-    excerpt: 'NFC-enabled keychains and pendants are the ultimate tech gift for 2024. Share your contact, socials, or portfolio with a single tap — no app needed.',
-    category: 'Product Guides',
-    emoji: '🔑',
-    readTime: '4 min read',
-    date: 'May 28, 2024',
-    url: '/?post=why-nfc-keychains-are-the-perfect-modern-gift',
+    id: 'desk-setup-guide',
+    title: 'Ultimate Desk Setup Guide',
+    slug: 'ultimate-desk-setup-guide',
+    summary: 'Design your perfect workspace with custom 3D printed organizers and accessories.',
+    content: `
+# Ultimate Desk Setup Guide
+
+A well-organized desk boosts productivity and reduces clutter. With BANALIA3D's custom 3D printed accessories, 
+you can create a workspace that's both functional and aesthetically pleasing.
+
+## Essential Desk Items
+
+1. **Cable Management**: Keep wires organized with custom cable docks
+2. **Storage**: Use modular organizers for pens, notes, and small items
+3. **Monitor Stand**: Elevate your screen for better ergonomics
+4. **Desk Accessories**: Add plants, decorative stands, and more
+
+## Personalization
+
+Our 3D printing services let you customize colors, materials, and designs. Create a desk setup 
+that truly reflects your style!
+
+Get started with BANALIA3D.
+    `,
+    imageUrl: '/images/blog-desk-setup.jpg',
+    category: 'inspiration',
+    readTime: '7 min',
+    publishedDate: '2024-01-20',
+    tags: ['desk', 'workspace', 'organization', 'inspiration'],
   },
   {
-    id: 'nfc-ready-3d-printed-gifts-that-command-attention',
-    title: 'NFC-Ready 3D Printed Gifts That Command Attention',
-    excerpt: 'Discover how NFC-ready 3D printed gifts make your custom orders unforgettable by combining smart functionality, reliable fit, and brand storytelling.',
-    category: 'Custom Gift Ideas',
-    emoji: '✨',
-    readTime: '7 min read',
-    date: 'June 22, 2026',
-    url: '/?post=nfc-ready-3d-printed-gifts-that-command-attention',
-  },
-  {
-    id: 'custom-3d-gifts-occasions',
-    title: 'Top 10 Custom 3D Printed Gift Ideas for Every Occasion',
-    excerpt: 'From birthdays to anniversaries, weddings to corporate gifting — custom 3D printed gifts are unique, personal, and surprisingly affordable.',
-    category: 'Custom Gift Ideas',
-    emoji: '🎁',
-    readTime: '6 min read',
-    date: 'May 15, 2024',
-    slug: '#blog',
-  },
-  {
-    id: '3d-printed-home-decor-trends',
-    title: '2024 Home Decor Trends: How 3D Printing Is Changing Interiors',
-    excerpt: 'Low-poly sculptures, geometric planters, and custom lighting shades — 3D printing is revolutionizing affordable home decor. Here are the top trends.',
-    category: 'Home Decor Inspiration',
-    emoji: '🏡',
-    readTime: '5 min read',
-    date: 'April 30, 2024',
-    slug: '#blog',
-  },
-  {
-    id: 'pla-vs-petg-vs-abs',
-    title: 'PLA vs PETG vs ABS: Which 3D Printing Material Should You Choose?',
-    excerpt: 'Not all 3D printing filaments are equal. This guide breaks down the pros and cons of PLA, PETG, and ABS for different use cases — from display pieces to functional parts.',
-    category: '3D Printing Tips',
-    emoji: '⚗️',
-    readTime: '7 min read',
-    date: 'April 12, 2024',
-    slug: '#blog',
-  },
-  {
-    id: 'desk-lamp-3d-print-guide',
-    title: 'How We Designed the Lumina Desk Lamp from Scratch',
-    excerpt: 'A behind-the-scenes look at the full product development process — from CAD sketching to first print, finishing, and the final product you can order today.',
-    category: 'Product Guides',
-    emoji: '💡',
-    readTime: '8 min read',
-    date: 'March 25, 2024',
-    slug: '#blog',
+    id: 'gaming-setup-customization',
+    title: 'Customize Your Gaming Setup',
+    slug: 'customize-gaming-setup',
+    summary: 'Learn how 3D printed accessories can enhance your gaming experience.',
+    content: `
+# Customize Your Gaming Setup
+
+Gamers know that the right setup can make all the difference. With custom 3D printed accessories 
+from BANALIA3D, you can build a gaming space that's uniquely yours.
+
+## Gaming Essentials
+
+- **Headphone Stands**: Keep your headset organized and protected
+- **Monitor Stands**: Improve viewing angles and add storage
+- **Cable Management**: Hide messy wires for a clean look
+- **Desk Organizers**: Store controllers, charging cables, and more
+
+## Materials & Durability
+
+Our PLA and PETG prints are durable enough for daily gaming use. Plus, they're eco-friendly!
+
+Transform your gaming setup today.
+    `,
+    imageUrl: '/images/blog-gaming-setup.jpg',
+    category: 'inspiration',
+    readTime: '6 min',
+    publishedDate: '2024-01-25',
+    tags: ['gaming', 'accessories', 'customization'],
   },
 ]
